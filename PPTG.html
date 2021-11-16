@@ -1,68 +1,545 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <title>Accomplishments</title>
-  <link rel="stylesheet" type="text/css" href="styles/site.css"/>
+  <title>PPTG</title>
+  <link rel="stylesheet" type="text/css" href="styles/site.css" />
 </head>
+
 <body>
-<h1>Accomplishments</h1>
+  <h1>PPTG</h1>
   <nav>
     <ul>
-      <li><a href = "index.html"> Home </a></li>
+      <li><a href="index.html"> Home </a></li>
     </ul>
   </nav>
-<div class="row">
-<div class="sideleft_a">
+  <h2>Mission Statement</h2>
+  <p>The Phoenix Players Theatre Group was founded in 2009 at Auburn Correctional Facility, a maximum-security prison in
+    Auburn New York, by a small group of incarcerated men dedicated to the idea that theatre work, combined with group
+    inner healing work, is a true opportunity for them to connect and to become more fully human.</p>
 
-  <h2>Academic</h2>
-  <strong>Dean’s List, Spring 2021</strong>
-  <p>which is for students who achieved academic excellence in the recieved semester</p>
-  <strong>Top 5% Academic Standing, Spring 2019</strong>
-  <p>which is for students who achieved academic excellence in the Experimental High School Attached to Beijing Normal University</p>
-  <strong>Extraordinary Leadership, Spring 2018</strong>
-  <p>which is for student who has shown excellent leadership in International Space Settlement Design Competition</p>
-  <strong>Winner ISSDC, Spring 2018</strong>
-  <p>which is for student who has win the champion in International Space Settlement Design Competition</p>
-  <strong>Runner's Up ARSSDC, Spring 2017</strong>
-  <p>which is for student who has win the second place in Asia Region Space Settlement Design Competition</p>
-</div>
-<div class="sideright_a">
-  <section class="course taken">
-    <h2>Course Achievements</h2>
-    <dl>
-      <dt>CS1110:</dt>
-      <dd>Intro to computing with Python</dd>
-      <dt>CS2110:</dt>
-      <dd>Object-Oriented Programming and Data Structures</dd>
-      <dt>CS3110:</dt>
-      <dd>Data Structures and Functional Programming</dd>
-      <dt>CS3420:</dt>
-      <dd>Embedded Systems</dd>
-      <dt>CS4820:</dt>
-      <dd>Introduction to Analysis of Algorithms</dd>
-      <dt>CS4780:</dt>
-      <dd>Introduction to Machine Learning</dd>
-      <dt>ECE2300:</dt>
-      <dd>Digital Logic and Computer Organization</dd>
-      <dt>ECE2400:</dt>
-      <dd>Computer Systems Programming</dd>
-      <dt>ENGRD2700:</dt>
-      <dd>Basic Engineering Probability and Statistics</dd>
-      <dt>ORIE3120:</dt>
-      <dd>Practical Tools for Operations Research, Machine Learning and Data Science</dd>
-      <dt>ORIE3300:</dt>
-      <dd>Optimization I</dd>
-      <dt>ORIE4741:</dt>
-      <dd>Learning with Big Messy Data</dd>
+  <blockquote>“The Phoenix Players Theatre Group is a program developed by and for incarcerated persons and Communities
+    in a maximum-security prison. It is a transformative theatre community, which utilizes theatre to reconnect
+    incarcerated people to their full humanity. Experiences gained through PPTG significantly increase incarcerated
+    peoples’ chances of transcending the negative labels and histories of criminality that define them within the
+    greater society.”</blockquote>
 
-    </dl>
+  <h2>History</h2>
+  <p>PPTG was founded in 2009 at Auburn Correctional Facility by a small group of incarcerated men dedicated to the idea
+    that theatre work, combined with group inner healing work, is a true opportunity for them to connect and to become
+    more fully human.</p>
+  <dl>
+    <dt>"2008</dt>
+    <dd>The earliest documents that begin to germinate the ideas for PPTG begin late 2008</dd>
+    <dd class="dd_small">Even in this very early proposal the creative passion and desire to establish their own
+      “redemptive and transformative” process that will mark the group’s future endeavors is evident. </dd>
+    <dt>"2009</dt>
+    <dd>Michael Rhynes and Clifford Williamson, incarcerated men in the Auburn Correctional Facility in central New
+      York, founded the Auburn Phoenix Players"</dd>
+    <dd>Shortly thereafter, the two renamed the company to form The Phoenix Players Theatre Group (PPTG).</dd>
+    <dd class="dd_small">They did this because they both realized that, while they were “in” Auburn, they were not “of”
+      Auburn. In the founders’ own words, “PPTG is a grassroots program developed by and forincarcerated persons and
+      communities in a maximum security prison. It is a transformative theatre community, which utilizes theatre to
+      reconnect incarcerated people to their full humanity” (Phoenix Players Theatre Group 2014a).” -Excerpt from “Where
+      the Walls Contain Everything but the Sky: The Birth and Growth of the Phoenix Players Theatre Group”</dd>
+  </dl>
 
-  </section>
-</div>
-</div>
+
+  <h2>What Defines Us? </h2>
+  <div class="row">
+    <ul>
+      <li>devised and performed 5 theater pieces for over 400 people</li>
+      <li>welcomed 28 members</li>
+      <li>filmed and released a documentary</li>
+      <li>created a Prison Theater class for Cornell students</li>
+      <li>been referenced in 17 articles</li>
+      <li>worked with 11 past and present volunteers</li>
+      <li>collaborated with 30 student participants and filmmakers</li>
+
+    </ul>
+
+    <ul>
+      <li>We are a community of transformation.</li>
+      <li>Through the power of self discovery,</li>
+      <li>We create the opportunity</li>
+      <li>To know and grow</li>
+      <li>Into ourselves.</li>
+    </ul>
+  </div>
+
+
+
+
+  <!-- carousel design HTML -->
+
+  <div class="carousel">
+    <h2 class="carousel_h2">Members</h2>
+
+    <div class="mainbody_carousel">
+
+
+      <button type="button" class="buttons" id="left_button">Prev</button>
+
+      <div class="slides">
+        <div class="slide" id="slide1">
+          <div class="row">
+            <h4>Facilitators</h4>
+            <section>
+              <div class="col1">
+                <!-- Source: (original work) Weiyan Wu -->
+                <img src="images/f1.png" class="carousel_img" alt="Slide 1" />
+              </div>
+              <p class="carousel_text_title">BRUCE LEVITT</p>
+              <p class="carousel_text"> Bruce Levitt is a Professor in the Department of Performing and Media Arts at
+                Cornell University.</p>
+            </section>
+            <section>
+              <div class="col1">
+                <!-- Source: (original work) Weiyan Wu -->
+                <img src="images/f2.png" class="carousel_img" alt="Slide 1" />
+              </div>
+              <p class="carousel_text_title">JUDY LEVITT</p>
+              <p class="carousel_text"> Judy Levitt joined the PPTG family as a facilitator in the fall of 2011 and is
+                extremely grateful to have been welcomed into this group.</p>
+            </section>
+            <section>
+              <div class="col1">
+                <!-- Source: (original work) Weiyan Wu -->
+                <img src="images/f3.png" class="carousel_img" alt="Slide 1" />
+              </div>
+              <p class="carousel_text_title">NORM JOHNSON</p>
+              <p class="carousel_text"> Norm Johnson, Jr. is in his 25th year teaching movement and scene study at
+                Ithaca College.</p>
+            </section>
+            <section>
+              <div class="col1">
+                <!-- Source: (original work) Weiyan Wu -->
+                <img src="images/f4.png" class="carousel_img" alt="Slide 1" />
+              </div>
+              <p class="carousel_text_title">ALISON VAN DYKE</p>
+              <p class="carousel_text"> Alison Van Dyke taught acting, speech and dialects at Cornell University in the
+                Department of Theatre, Film and Dance.</p>
+            </section>
+            <section>
+              <div class="col1">
+                <!-- Source: (original work) Weiyan Wu -->
+                <img src="images/f5.png" class="carousel_img" alt="Slide 1" />
+              </div>
+              <p class="carousel_text_title">STEPHEN COLE</p>
+              <p class="carousel_text"> For nearly 40 years as a professor in Cornell’s Department of Theater, Film, and
+                Dance, Stephen Cole trained scores of fledgling young actors.</p>
+            </section>
+          </div>
+        </div>
+
+        <div class="slide hidden" id="slide2">
+          <div class="col1">
+            <div class="row">
+              <h4>Colaborators</h4>
+              <section>
+                <div class="col1">
+                  <!-- Source: (original work) Weiyan Wu -->
+                  <img src="images/c1.png" class="carousel_img" alt="Slide 2" />
+                </div>
+                <p class="carousel_text_title">BLAIZE EMILY HALL</p>
+                <p class="carousel_text"> .</p>
+              </section>
+              <section>
+                <div class="col1">
+                  <!-- Source: (original work) Weiyan Wu -->
+                  <img src="images/c2.png" class="carousel_img" alt="Slide 2" />
+                </div>
+                <p class="carousel_text_title"></p>
+                <p class="carousel_text"> .</p>
+              </section>
+              <section>
+                <div class="col1">
+                  <!-- Source: (original work) Weiyan Wu -->
+                  <img src="images/c3.png" class="carousel_img" alt="Slide 2" />
+                </div>
+                <p class="carousel_text_title"></p>
+                <p class="carousel_text"> .</p>
+              </section>
+              <section>
+                <div class="col1">
+                  <!-- Source: (original work) Weiyan Wu -->
+                  <img src="images/c4.png" class="carousel_img" alt="Slide 2" />
+                </div>
+                <p class="carousel_text_title"></p>
+                <p class="carousel_text"> .</p>
+              </section>
+              <section>
+                <div class="col1">
+                  <!-- Source: (original work) Weiyan Wu -->
+                  <img src="images/c5.png" class="carousel_img" alt="Slide 2" />
+                </div>
+                <p class="carousel_text_title"></p>
+                <p class="carousel_text"> .</p>
+              </section>
+            </div>
+            <div class="row">
+              <h4>Colaborators</h4>
+              <section>
+                <div class="col1">
+                  <!-- Source: (original work) Weiyan Wu -->
+                  <img src="images/c6.png" class="carousel_img" alt="Slide 2" />
+                </div>
+                <p class="carousel_text_title">BLAIZE EMILY HALL</p>
+                <p class="carousel_text"> .</p>
+              </section>
+              <section>
+                <div class="col1">
+                  <!-- Source: (original work) Weiyan Wu -->
+                  <img src="images/c7.png" class="carousel_img" alt="Slide 1" />
+                </div>
+                <p class="carousel_text_title"></p>
+                <p class="carousel_text"> .</p>
+              </section>
+              <section>
+                <div class="col1">
+                  <!-- Source: (original work) Weiyan Wu -->
+                  <img src="images/c8.png" class="carousel_img" alt="Slide 2" />
+                </div>
+                <p class="carousel_text_title"></p>
+                <p class="carousel_text"> .</p>
+              </section>
+              <section>
+                <div class="col1">
+                  <!-- Source: (original work) Weiyan Wu -->
+                  <img src="images/c9.png" class="carousel_img" alt="Slide 2" />
+                </div>
+                <p class="carousel_text_title"></p>
+                <p class="carousel_text"> .</p>
+              </section>
+              <section>
+                <div class="col1">
+                  <!-- Source: (original work) Weiyan Wu -->
+                  <img src="images/c10.png" class="carousel_img" alt="Slide 2" />
+                </div>
+                <p class="carousel_text_title"></p>
+                <p class="carousel_text"> .</p>
+              </section>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide hidden" id="slide3">
+          <div class="col1">
+            <div class="row">
+              <h4>Members</h4>
+              <section>
+                <div class="col1">
+                  <!-- Source: (original work) Weiyan Wu -->
+                  <img src="images/p1.png" class="carousel_img" alt="Slide 3" />
+                </div>
+                <p class="carousel_text_title">BLAIZE EMILY HALL</p>
+                <p class="carousel_text"> .</p>
+              </section>
+              <section>
+                <div class="col1">
+                  <!-- Source: (original work) Weiyan Wu -->
+                  <img src="images/p2.png" class="carousel_img" alt="Slide 3" />
+                </div>
+                <p class="carousel_text_title"></p>
+                <p class="carousel_text"> .</p>
+              </section>
+              <section>
+                <div class="col1">
+                  <!-- Source: (original work) Weiyan Wu -->
+                  <img src="images/p3.png" class="carousel_img" alt="Slide 3" />
+                </div>
+                <p class="carousel_text_title"></p>
+                <p class="carousel_text"> .</p>
+              </section>
+              <section>
+                <div class="col1">
+                  <!-- Source: (original work) Weiyan Wu -->
+                  <img src="images/p4.png" class="carousel_img" alt="Slide 3" />
+                </div>
+                <p class="carousel_text_title"></p>
+                <p class="carousel_text"> .</p>
+              </section>
+              <section>
+                <div class="col1">
+                  <!-- Source: (original work) Weiyan Wu -->
+                  <img src="images/p5.png" class="carousel_img" alt="Slide 3" />
+                </div>
+                <p class="carousel_text_title"></p>
+                <p class="carousel_text"> .</p>
+              </section>
+            </div>
+            <div class="row">
+              <h4>Members</h4>
+              <section>
+                <div class="col1">
+                  <!-- Source: (original work) Weiyan Wu -->
+                  <img src="images/p6.png" class="carousel_img" alt="Slide 3" />
+                </div>
+                <p class="carousel_text_title">BLAIZE EMILY HALL</p>
+                <p class="carousel_text"> .</p>
+              </section>
+              <section>
+                <div class="col1">
+                  <!-- Source: (original work) Weiyan Wu -->
+                  <img src="images/p7.png" class="carousel_img" alt="Slide 3" />
+                </div>
+                <p class="carousel_text_title"></p>
+                <p class="carousel_text"> .</p>
+              </section>
+              <section>
+                <div class="col1">
+                  <!-- Source: (original work) Weiyan Wu -->
+                  <img src="images/p8.png" class="carousel_img" alt="Slide 3" />
+                </div>
+                <p class="carousel_text_title"></p>
+                <p class="carousel_text"> .</p>
+              </section>
+              <section>
+                <div class="col1">
+                  <!-- Source: (original work) Weiyan Wu -->
+                  <img src="images/p9.png" class="carousel_img" alt="Slide 3" />
+                </div>
+                <p class="carousel_text_title"></p>
+                <p class="carousel_text"> .</p>
+              </section>
+              <section>
+                <div class="col1">
+                  <!-- Source: (original work) Weiyan Wu -->
+                  <img src="images/p10.png" class="carousel_img" alt="Slide 3" />
+                </div>
+                <p class="carousel_text_title"></p>
+                <p class="carousel_text"> .</p>
+              </section>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="slide hidden" id="slide4">
+          <div class="col1">
+            <div class="row">
+              <h4>Members</h4>
+              <section>
+                <div class="col1">
+                  <!-- Source: (original work) Weiyan Wu -->
+                  <img src="images/p11.png" class="carousel_img" alt="Slide 4" />
+                </div>
+                <p class="carousel_text_title">BLAIZE EMILY HALL</p>
+                <p class="carousel_text"> .</p>
+              </section>
+              <section>
+                <div class="col1">
+                  <!-- Source: (original work) Weiyan Wu -->
+                  <img src="images/p12.png" class="carousel_img" alt="Slide 4" />
+                </div>
+                <p class="carousel_text_title"></p>
+                <p class="carousel_text"> .</p>
+              </section>
+              <section>
+                <div class="col1">
+                  <!-- Source: (original work) Weiyan Wu -->
+                  <img src="images/p13.png" class="carousel_img" alt="Slide 4" />
+                </div>
+                <p class="carousel_text_title"></p>
+                <p class="carousel_text"> .</p>
+              </section>
+              <section>
+                <div class="col1">
+                  <!-- Source: (original work) Weiyan Wu -->
+                  <img src="images/p14.png" class="carousel_img" alt="Slide 4" />
+                </div>
+                <p class="carousel_text_title"></p>
+                <p class="carousel_text"> .</p>
+              </section>
+              <section>
+                <div class="col1">
+                  <!-- Source: (original work) Weiyan Wu -->
+                  <img src="images/p15.png" class="carousel_img" alt="Slide 4" />
+                </div>
+                <p class="carousel_text_title"></p>
+                <p class="carousel_text"> .</p>
+              </section>
+            </div>
+            <div class="row">
+              <h4>Members</h4>
+              <section>
+                <div class="col1">
+                  <!-- Source: (original work) Weiyan Wu -->
+                  <img src="images/p16.png" class="carousel_img" alt="Slide 4" />
+                </div>
+                <p class="carousel_text_title">BLAIZE EMILY HALL</p>
+                <p class="carousel_text"> .</p>
+              </section>
+              <section>
+                <div class="col1">
+                  <!-- Source: (original work) Weiyan Wu -->
+                  <img src="images/p17.png" class="carousel_img" alt="Slide 4" />
+                </div>
+                <p class="carousel_text_title"></p>
+                <p class="carousel_text"> .</p>
+              </section>
+              <section>
+                <div class="col1">
+                  <!-- Source: (original work) Weiyan Wu -->
+                  <img src="images/p18.png" class="carousel_img" alt="Slide 4" />
+                </div>
+                <p class="carousel_text_title"></p>
+                <p class="carousel_text"> .</p>
+              </section>
+              <section>
+                <div class="col1">
+                  <!-- Source: (original work) Weiyan Wu -->
+                  <img src="images/p19.png" class="carousel_img" alt="Slide 4" />
+                </div>
+                <p class="carousel_text_title"></p>
+                <p class="carousel_text"> .</p>
+              </section>
+              <section>
+                <div class="col1">
+                  <!-- Source: (original work) Weiyan Wu -->
+                  <img src="images/p20.png" class="carousel_img" alt="Slide 4" />
+                </div>
+                <p class="carousel_text_title"></p>
+                <p class="carousel_text"> .</p>
+              </section>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="slide hidden" id="slide5">
+          <div class="col1">
+            <div class="row">
+              <h4>Members</h4>
+              <section>
+                <div class="col1">
+                  <!-- Source: (original work) Weiyan Wu -->
+                  <img src="images/p21.png" class="carousel_img" alt="Slide 5" />
+                </div>
+                <p class="carousel_text_title">BLAIZE EMILY HALL</p>
+                <p class="carousel_text"> .</p>
+              </section>
+              <section>
+                <div class="col1">
+                  <!-- Source: (original work) Weiyan Wu -->
+                  <img src="images/pn.png" class="carousel_img" alt="Slide 5" />
+                </div>
+                <p class="carousel_text_title"></p>
+                <p class="carousel_text"> .</p>
+              </section>
+              <section>
+                <div class="col1">
+                  <!-- Source: (original work) Weiyan Wu -->
+                  <img src="images/p22.png" class="carousel_img" alt="Slide 5" />
+                </div>
+                <p class="carousel_text_title"></p>
+                <p class="carousel_text"> .</p>
+              </section>
+              <section>
+                <div class="col1">
+                  <!-- Source: (original work) Weiyan Wu -->
+                  <img src="images/pn.png" class="carousel_img" alt="Slide 5" />
+                </div>
+                <p class="carousel_text_title"></p>
+                <p class="carousel_text"> .</p>
+              </section>
+              <section>
+                <div class="col1">
+                  <!-- Source: (original work) Weiyan Wu -->
+                  <img src="images/p23.png" class="carousel_img" alt="Slide 5" />
+                </div>
+                <p class="carousel_text_title"></p>
+                <p class="carousel_text"> .</p>
+              </section>
+            </div>
+            <div class="row">
+              <h4>Members</h4>
+              <section>
+                <div class="col1">
+                  <!-- Source: (original work) Weiyan Wu -->
+                  <img src="images/pn.png" class="carousel_img" alt="Slide 5" />
+                </div>
+                <p class="carousel_text_title">BLAIZE EMILY HALL</p>
+                <p class="carousel_text"> .</p>
+              </section>
+              <section>
+                <div class="col1">
+                  <!-- Source: (original work) Weiyan Wu -->
+                  <img src="images/p24.png" class="carousel_img" alt="Slide 5" />
+                </div>
+                <p class="carousel_text_title"></p>
+                <p class="carousel_text"> .</p>
+              </section>
+              <section>
+                <div class="col1">
+                  <!-- Source: (original work) Weiyan Wu -->
+                  <img src="images/pn.png" class="carousel_img" alt="Slide 5" />
+                </div>
+                <p class="carousel_text_title"></p>
+                <p class="carousel_text"> .</p>
+              </section>
+              <section>
+                <div class="col1">
+                  <!-- Source: (original work) Weiyan Wu -->
+                  <img src="images/p25.png" class="carousel_img" alt="Slide 5" />
+                </div>
+                <p class="carousel_text_title"></p>
+                <p class="carousel_text"> .</p>
+              </section>
+              <section>
+                <div class="col1">
+                  <!-- Source: (original work) Weiyan Wu -->
+                  <img src="images/pn.png" class="carousel_img" alt="Slide 5" />
+                </div>
+                <p class="carousel_text_title"></p>
+                <p class="carousel_text"> .</p>
+              </section>
+            </div>
+          </div>
+
+        </div>
+
+
+
+
+
+      </div>
+
+      <button type="button" class="buttons" id="right_button">Next</button>
+
+    </div>
+
+    <div class="row dot_section">
+      <button type="button" class="dots dot_color" id="dot1"></button>
+      <button type="button" class="dots" id="dot2"></button>
+      <button type="button" class="dots" id="dot3"></button>
+      <button type="button" class="dots" id="dot4"></button>
+      <button type="button" class="dots" id="dot5"></button>
+    </div>
+
+  </div>
+
+  <script type="text/javascript" src="scripts/jquery-3.6.0.js"></script>
+  <script type="text/javascript" src="scripts/carousel.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 </body>
+
 </html>
